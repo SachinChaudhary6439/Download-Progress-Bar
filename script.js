@@ -8,6 +8,8 @@ bar.style.width = percent.textContent;
 count++;
 }
 else{
+  h2.textContent = "Download Completed"
   clearInterval(interval);
 }
+
 },30);
